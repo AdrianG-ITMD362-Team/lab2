@@ -8,15 +8,16 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
+  <h1>User Info</h1>
   <form method="POST" autocomplete="on" action="#null">
     <div>
-      <label>Email Address: <input type="email" name="email" placeholder="@example.com" required></label>
+      <label>Email Address: <input type="email" name="email" placeholder="example@example.com" required></label>
     </div>
     <div>
-      <label>Phone Number: <input type="tel" name="phone number" placeholder="000-000-0000" minlength="11" title="Valid number: 000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
+      <label>Phone Number: <input type="tel" name="pnumber" placeholder="000-000-0000" minlength="11" title="Valid number: 000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
     </div>
     <div>
-      <label>Date of Birth: <input type="date" name="DOB" placeholder="mm/dd/yyyy"></label>
+      <label>Date of Birth: <input type="date" name="dob" placeholder="mm/dd/yyyy" required></label>
     </div>
     <div>
       <input type="submit" value="Submit">
