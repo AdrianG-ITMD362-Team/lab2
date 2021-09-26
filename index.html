@@ -8,20 +8,25 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <h1>User Info</h1>
-  <form method="POST" autocomplete="on" action="#null">
-    <div>
-      <label>Email Address: <input type="email" name="email" placeholder="example@example.com" required></label>
-    </div>
-    <div>
-      <label>Phone Number: <input type="tel" name="pnumber" placeholder="000-000-0000" minlength="11" title="Valid number: 000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
-    </div>
-    <div>
-      <label>Date of Birth: <input type="date" name="dob" placeholder="mm/dd/yyyy" required></label>
-    </div>
-    <div>
-      <input type="submit" value="Submit">
-    </div>
-  </form>
+  <section id="innersection">
+    <h1>User Info</h1>
+    <form method="POST" autocomplete="on" action="#null">
+      <div>
+        <label>Email Address</label>
+        <input type="email" name="email" placeholder="example@example.com" required>
+      </div>
+      <div>
+        <label>Phone Number</label>
+        <input type="tel" name="pnumber" placeholder="000-000-0000" minlength="11" title="Valid number: 000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      </div>
+      <div>
+        <label>Date of Birth</label>
+        <input type="date" name="dob" placeholder="mm/dd/yyyy" required>
+      </div>
+        <input type="submit" value="Submit" id="submitbutton">
+    </form>
+  </section>
+  
+  
 </body>
 </html>
