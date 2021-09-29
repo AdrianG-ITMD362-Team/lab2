@@ -1,7 +1,7 @@
 html{
     line-height: 3em;
     font-family:sans-serif;
-    font-size: 19px;
+    font-size: 1.2em;
 }
 h1{
     font-size: 1.5em;
@@ -13,7 +13,7 @@ input {
     padding: 1em;
 }
 label, input{
-    margin: 0 auto;
+    margin: auto;
     display: block;
     width: 85%;
 }
@@ -23,29 +23,28 @@ label, input{
 }
 
 @media only screen and (min-width : 480px) {
-
     html{
-        font-size: 17px;
+        font-size: 1.1em;
         margin: 1em;
     }
     input{
         display: inline-block;
-        padding: 0.3em;
+        padding: 0.5em;
         width: 13em;
     }
     #submitbutton{
         padding: 0.5em;
         width: 5em;
-        display:block;   
+        display: block;   
     }
     label{
         display: inline-block;
-        width: 150px;
+        width: 8.5em;
         text-align: right;
     }
     #wrapper{
-        display:block;
+        display: block;
         margin: auto;
         width: 25em;
-    }    
+    }
 }
